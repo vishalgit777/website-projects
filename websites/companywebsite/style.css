@@ -1,0 +1,120 @@
+/* style body element by adding bg image and set it to cover and font family to body */
+body{
+    font-family:Arvo,serif;
+    background: url(https://freenaturestock.s3.us-east-1.amazonaws.com/232.jpg)no-repeat center center ;
+    background-attachment: fixed;
+    background-size:cover;
+}
+
+/* style brand */
+.logo{
+    height: 30px;
+}
+
+/* style navbars */
+
+.navbar-inverse{
+    background:rgba(0,0,0,0.5);/*for- transparency*/
+}
+.nav li{
+    color:#fff;
+    font-size:20px;
+    margin-right: 25px;
+    padding:10px 0 ;/* top bottom 10 l-r='0' */
+}
+
+.nav li:hover{
+    border-bottom: 1px solid #00FFBB;
+    padding-bottom: 9px;
+    cursor:pointer;
+}
+
+
+
+
+/* style jumbotron */
+.jumbotron{
+    background-color:transparent;
+    color:#fff;
+    text-align: center;
+    margin:0;
+    padding:0;/* to remove default padding of jumbotron */
+    letter-spacing: 2px;
+}
+
+
+
+
+/* limit thw width of icon section */
+
+.container{
+    max-width: 1000px;
+}
+
+
+
+
+/* style icon using grid systems */
+
+.bodyimage{
+    height:100px;
+    
+}
+
+.col-md-4{
+    text-align:center;
+    color:#fff;
+}
+
+.icons p{
+    font-size:15px;
+}
+
+
+/* style our contact button */
+.contact{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
+
+.btn{
+    background-color: rgba(0,255,184,0.5);
+    border: none;
+    border-radius: :10px;
+    color:#fff;
+    font-size:20px;
+    padding:10px 60px;
+    letter-spacing: 1.2px;
+    
+}
+
+.btn:hover{
+    background-color: rgba(0,0,0,0.5);
+    color:#fff ;/* text color to be white */
+    border:none;
+}
+
+
+
+/* style our footer */
+.footer{
+    background-color: rgba(0,0,0,0.5);
+    color:grey;
+    font-size:15px;
+    padding:10px 0px;
+}
+
+
+
+
+/* use media queries to change size icons */
+
+@media (max-width:768px){
+    height:70px;
+    
+}
+
+
+
+
